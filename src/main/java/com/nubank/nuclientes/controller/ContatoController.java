@@ -34,11 +34,11 @@ public class ContatoController {
 //    public ResponseEntity<ContatoDTO> buscarPorId(@PathVariable Long id) {
 //        return ResponseEntity.ok(contatoService.buscarID(id));
 //    }
-//
-//
-//    @DeleteMapping("/{id}")
-//    public ResponseEntity<Void> deletarContato(@PathVariable Long id) {
-//        contatoService.deletar(id);
-//        return ResponseEntity.noContent().build();
-//    }
+
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deletarContato(@PathVariable Long id) {
+        contatoService.deletar(id);
+        return ResponseEntity.noContent().build();
+    }
 }
