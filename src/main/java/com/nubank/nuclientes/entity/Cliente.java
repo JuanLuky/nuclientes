@@ -19,6 +19,7 @@ public class Cliente {
 
     private String nome;
 
+    @Builder.Default
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Contato> contatos = new ArrayList<>();
 }
