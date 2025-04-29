@@ -1,7 +1,7 @@
 
 ---
 
-## 🟣 NuClientes API – Desafio Estilo Nubank
+## 🟣 NuClientes API – Desafio Vaga
 
 API REST para cadastro de **clientes e seus contatos**, desenvolvida como simulação de um desafio técnico de backend júnior.
 
